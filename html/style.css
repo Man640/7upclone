@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #0dc6c0;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: center;
+  height: 102px;
+}
+
+
+.logo{
+    width: 100px;
+    height: auto;
+    padding-left: 10px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav a {
+  margin: 0 25px;
+  text-decoration: none;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+ .intro-page{
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .f,.i,.x,.p,.t,.y {
+    width: 35px;
+    padding-top: 30px;
+    padding-right: 5px;
+    
+  }
+  .f:hover,.i:hover,.x:hover,.p:hover,.t:hover,.y:hover{
+    cursor: pointer;
+  }
+
+.hero {
+  background: linear-gradient(to bottom, #00e2d3, #ffc869);
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+
+
+.new-flavor {
+  background: #ff5722;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.hero-left button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #0dc6c0;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-right {
+  text-align: center;
+}
+
+.can-image {
+  height: 200px;
+}
+
+
+
+
+section.recipes,
+section.store-locator {
+  position: relative;
+  text-align: center;
+}
+
+.recipes-content,
+.store-content {
+  position: relative;
+}
+
+.recipes-content img,
+.store-content img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(8, 102, 24, 0.6);
+  color: white;
+  padding: 50px 90px;
+  border-radius: 100px;
+}
+.overlay1 {
+    position: absolute;
+    top: 35%;
+    left:5%;
+    background-color: transparent;
+    color: white;
+    font-size: 3.5rem;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.overlay1 button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2.5px solid white;
+    font-size: 20px;
+
+}
+
+.overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.overlay button {
+  margin-top: 10px;
+  padding: 10px 60px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.trademark {
+  font-size: 0.8rem;
+}
